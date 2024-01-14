@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+
+body {
+    background-color: white
+
+}
+
+.part1 {}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:#F6E6D1;
+    height:30px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #F6E6D1;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 1px 2px black;
+}
+
+nav {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    display: flex;
+    justify-content:center;
+    gap: 150px;
+    height:200px;
+    margin-top:50px;
+    margin-right: 100px;
+    
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.part2 {
+    float: right;
+    height: 400px;
+    width: 400px;
+    margin-right: 100px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.domaine{
+    color: #052585;
+    font-size: 30px;
+    font-weight:700;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.part3 {
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.line1 {
+    width: auto;
+    margin: 30px;
+    background-color: rgba(120, 130, 190, 0.575);
+}
+
+h2 {
+    margin-top: 300px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.bloc .image:hover{
+    opacity: 0.6;
+}
+
+.part5 {
+    text-align: center;
+}
+
+.part7 {
+    background-color: rgba(120, 130, 190, 0.575);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.part8 {
+    text-align: center;
+}
+
+footer {
+    background-color: #F6E6D1;
+
+}
+
+form {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+    Background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 500px;
+    margin: auto;
+}
+
+
+.separation {
+    width: 100%;
+    height: 2px;
+    background-color: #052585;
+}
+
+.corp_form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.groupe {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    outline-color: #052585;
+
+}
+
+i {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #052585;
+}
+
+.droite {
+    margin-left: 70px;
+}
+
+.droite .groupe {
+    height: 100%;
+    width: 225px;
+
+
+}
+
+.droite .groupe textarea {
+    margin-top: 5px;
+    padding: px;
+    background-color: #f8f8f8;
+    border: 2px solid #052585;
+    outline-color: #052585;
+    border-radius: 5px;
+    resize: none;
+    height: 85%;
+
+
+
+}
+
+.pied_form button {
+    margin-top: 10px;
+    background-color: #052585;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+.pied_form button:hover {
+    transform: scale(1.03);
+}
+
+.reseaux img {
+    width: 50px;
+    height: 50px;
+}
+
+.reseaux img:hover {
+    opacity: 0.6;
+}
+
+.reseaux {
+    padding: 50px;
+    display: flex;
+    gap: 70px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.contour1 {
+    border: 1px solid #c9c9c9;
+}
+
+td {
+    border: 3px solid black;
+    font-size: 30px;
+}
+.
+.logiciel {
+    height: 200px;
+    width: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.image {
+    
+    display: inline;
+    margin-left: 30px;
+    
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        display: block;
+    }
+
+    .block{
+        display:inline;
+        align-items: center;
+        width: 90%;
+    }
+    
+    table{
+        display: block;
+        width: auto;
+    }
+
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        width: auto;
+    }
+
+    .part3{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .corp_form{
+        display: block;
+    }
+
+    .droite{
+        justify-content: center;
+        margin-left: 130px;
+    }
+    .reseaux{
+        display: block;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .part2{
+        display: none;
+    }
+    footer{
+        background-color: white;
+    }
+    .part7{
+        background-color: white;
+    }
+
+}
+    
+    
+
